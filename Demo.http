@@ -1,0 +1,29 @@
+@Host = http://localhost:5239
+
+GET {{Host}}/fixed-window
+Content-Type: application/json
+
+###
+
+GET {{Host}}/sliding-window
+Content-Type: application/json
+
+###
+
+GET {{Host}}/token-bucket
+Content-Type: application/json
+
+###
+
+GET {{Host}}/concurrency
+Content-Type: application/json
+
+###
+
+GET {{Host}}/limited-by-ip
+Content-Type: application/json
+
+###
+
+GET {{Host}}/demo
+Content-Type: application/json
